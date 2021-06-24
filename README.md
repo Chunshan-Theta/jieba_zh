@@ -3,13 +3,16 @@
 ## submodule
 
 ADD:
-`git submodule add https://github.com/Chunshan-Theta/jieba_zh.git`
+1. `git submodule add https://github.com/Chunshan-Theta/jieba_zh.git`
+2. `git submodule init`
+3. `git submodule update`
+
 
 
 UPDATE:
-`git pull`
-`git submodule update`
+1. `git pull`
+2. `git submodule update`
 
 
 UPDATE FROM LATEST:
-`git submodule foreach "(git checkout main; git pull)"  `
+1. `git submodule foreach "(git checkout main; git pull)"  `
